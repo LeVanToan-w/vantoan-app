@@ -9,7 +9,7 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon",
-      "bundleIdentifier": "com.anonymous.vantoanapp"
+      "bundleIdentifier": "com.lvt.vantoanapp"
     },
     "android": {
       "adaptiveIcon": {
