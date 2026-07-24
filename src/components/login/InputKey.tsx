@@ -14,12 +14,14 @@ export default function InputPassword({value, onChangeText }: InputKeyProps) {
 }
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 45,
+        paddingTop: 30,
     },
     key: {
         width: 200,
         height: 40,
         borderRadius: 5,
         backgroundColor: '#fff',
+        borderColor: "#000",
+        borderWidth: 1,
     },
 })

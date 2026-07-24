@@ -18,14 +18,15 @@ export default function SubmitButton({ title, onPress }: Props) {
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 50,
+        paddingTop: 30,
         width: 90,
     },
     bttn: {
         padding: 12,
         borderRadius: 6,
         alignItems: 'center',
-        backgroundColor: "#fff",
+        borderColor: "#000",
+        borderWidth: 1,
     },
     titlebttn: {
         color: "#000",
