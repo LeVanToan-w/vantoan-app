@@ -1,11 +1,12 @@
 import { StyleSheet, View, Image } from "react-native";
 
-import Title from "../components/login/Title";
+import Title from "../components/login/Title_login";
 import InputKey from "../components/login/InputKey";
 import SubmitButton from "../components/login/SubmitButton";
 import React, { useState } from "react";
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { FadeInDown, FadeInUp } from "react-native-reanimated";
+import { router } from "expo-router";
 
 
 const logo = require('../assets/logo.png');
@@ -14,8 +15,8 @@ export default function LoginScreen() {
   const [key, setKey] = useState('');
 
   const handlePress = () => {
-    if (key == "vantoan") {
-      console.log("True");
+    if (key == "1") {
+      router.push("/home");
     } else {
       console.log("False");
     };
